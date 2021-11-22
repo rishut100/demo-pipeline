@@ -16,6 +16,7 @@ def testApp(){
 def deployApp(){
   steps {
     echo "deploying the application version ${params.VERSION}"
+  }
 }
 
 return this
