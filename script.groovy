@@ -3,15 +3,11 @@ def buildApp(){
 }
 
 def testApp(){
-  steps {
-    echo 'testing application...'
-  }
+  echo 'testing application...'
 }
 
 def deployApp(){
-  steps {
-    echo "deploying the application version ${params.VERSION}"
-  }
+  echo "deploying the application version ${params.VERSION}"
 }
 
 return this
